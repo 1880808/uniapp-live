@@ -1,0 +1,47 @@
+# 日志文件
+*.log
+
+# 编译输出
+/dist/
+/build/
+unpackage/
+/unpackage/
+*unpackage/*
+
+# 依赖文件夹
+/node_modules/
+/vendor/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# IDE 配置
+.idea/
+.hbuilderx/
+
+package-lock.json
+*.swp
+*.swo
+*.swn
+*.bak
+
+# OS 生成的文件
+ehthumbs.db
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# VS Code directories
+.vscode/
+
+# Windows image file caches
+Thumbnails.db
+
+# Files that might appear on external hard drives
+.Spotlight-V100
+.Trashes
+
+# macOS directory
+._*
